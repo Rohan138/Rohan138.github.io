@@ -109,25 +109,31 @@ name {
   font-size: 32px;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
+table.section {
+  width: 100%;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+td.heading {
+  padding: 30px 20px 10px 20px;
+  width: 100%;
+  vertical-align: middle;
 }
 
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+td.picture {
+  padding: 10px 20px 10px 20px;
+  width: 25%;
+  vertical-align: middle;
+}
+
+td.description {
+  padding: 10px 20px 10px 20px;
+  width: 75%;
+  vertical-align: middle;
 }
 
 span.highlight {
